@@ -1,0 +1,52 @@
+# Dependencies
+**/node_modules/
+/package-lock.json
+frontend/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Frontend build output
+**/dist/
+**/.angular/
+
+# Testing / Python caches
+**/coverage/
+.pytest_cache/
+.mypy_cache/
+.pyre/
+**/__pycache__/
+*.py[cod]
+
+# Python virtual environments
+**/.venv/
+venv/
+.venv/
+
+# Environment files
+.env
+.env.*
+!.env.example
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Misc
+*.pem
+
+# TypeScript
+*.tsbuildinfo
